@@ -28,7 +28,7 @@ I would spend more time doing feature engineering. I think there could definitel
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![Model Train Scores](https://github.com/EgeCaliskan/Prediction-Of-Bike-Sharing-Demand---Kaggle/blob/main/model_train_score.png)
+![Model Train Scores](https://github.com/EgeCaliskan/Prediction-Of-Bike-Sharing-Demand---Kaggle/blob/main/model_train_score (RMSE).png)
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 ![Model Test Scores](https://github.com/EgeCaliskan/Prediction-Of-Bike-Sharing-Demand---Kaggle/blob/main/model_test_score.png)
 ## Summary
