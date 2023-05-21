@@ -23,13 +23,13 @@ To my testing, the training error actually went up after doing hyperparameter op
 I would spend more time doing feature engineering. I think there could definitely be more interesting and useful relationships in this dataset that could help the models perform better.
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-(added as Hyperparameter Table.png)
-![[Hyperparameter Table.png]] 
+
+![Hyperparameter Table](https://github.com/EgeCaliskan/Prediction-Of-Bike-Sharing-Demand---Kaggle/blob/main/hyperparameter_table.png)
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![[model_train_score (RMSE).png]] 
+![Model Train Scores](https://github.com/EgeCaliskan/Prediction-Of-Bike-Sharing-Demand---Kaggle/blob/main/model_train_score.png)
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
-![[model_test_score.png]]
+![Model Test Scores](https://github.com/EgeCaliskan/Prediction-Of-Bike-Sharing-Demand---Kaggle/blob/main/model_test_score.png)
 ## Summary
-Overall, this project was a big learning experience for me. I did Exploratory Data Analysis, found that there were no missing values or outliers meaning there is no need for clearnup and created a new feature consisting of the seperate fields in the datetime column. I trained different models on the raw dataset and the new feature dataset and selected the best models for hyperparameter optimization which I performed on the new feature dataset. I found that after hyperparameter optimization the training performance suffered by a small margin however the testing score increased greatly. I believe this to be due to overfitting, which was resolved with the optimizations. In the end, the models achieved a kaggle test score of 0.53251.
+Overall, this project was a big learning experience for me. I did Exploratory Data Analysis, found that there were no missing values or outliers meaning there is no need for clearnup and created a new feature consisting of the seperate fields in the datetime column. I trained different models on the raw dataset and the new feature dataset and selected the best models for hyperparameter optimization which I performed on the new feature dataset. I found that after hyperparameter optimization the training performance suffered by a small margin however the testing score increased greatly. I believe this to be due to overfitting, which was resolved with the optimizations. I also noticed that the hyperparameters remained unchanged after hyperparameter optimizations, however this seems impossible due to the fact the performance improved. Possibly a bug. In the end, the models achieved a kaggle test score of 0.53251.
